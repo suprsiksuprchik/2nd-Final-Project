@@ -2,6 +2,16 @@
 <html>
  <head>
   <title></title> 
+   <!--See why this link won't let the stylesheet effect the HTML-->
+  <a rel="stylesheet" src="cssstyles.css">
+   <!--this is a font-->
+  <link rel="preconnect" 
+  href="https://fonts.googleapis.com">
+  <link rel="preconnect" 
+  href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2? 
+  family=Lobster&display=swap" rel="stylesheet">
+   <!--end of font-->
  </head>
    <body>
      <h1>Task Manager</h1>
@@ -28,7 +38,7 @@
        <input type="submit" value="Submit">
        
 
-       
+     <!--  
      </form>
      <div class="row d-flex justify-content-center container">
     <div class="col-md-8">
@@ -211,12 +221,13 @@
     </div>
     </div>
 
+       We need the JavaScript to make the task cards that will pop up when we fill out the form-->
 
    
    
    
    
    
-   
+  <script src="JS/index.js"></script>
    </body>
 </html>
