@@ -13,4 +13,5 @@ class TaskManager {
     }
     this.tasks.push(task);
   }
+  let taskCard
 }
