@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html>
- <head>
-
+  <head>
+   
    <!--this is a font-->
-   <link rel="preconnect" 
-   href="https://fonts.googleapis.com">
-   <link rel="preconnect" 
-   href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2? 
-   family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
    <!--end of font-->
-   <a rel="stylesheet" href="css/styles.css">
- </head>
-   <body>
-     <h1>Task Manager</h1>
-     <br>
+    <link rel="stylesheet" href="./css/styles.css"/>
+  </head>
+    <body>
+      <h1>Task Manager</h1>
+      <br>
      <form>
-      <label for="due-date">Due Date</label>
-       <br>
-        <input type="date" id="start" name="trip-start"
-          value="2022-05-13"
-          min="1922-01-01" max="2055-12-31">
+     <label for="due-date">Due Date</label>
+      <br>
+      <input type="date" id="due-date" name="trip-start"
+          defaultValue="2022-05-13"
+          min="1922-01-01" max="2055-12-31"/>
       <br>
       <br> 
-       <label for="fNames">Assigned To</label>
-       <br>
-       <select id="formNames" name="formName">
-         <option value="jBurg">John Burg</option>
-         <option value="jBouis">John Bouis Jr.</option>
-         <option value="dBromund">Darlene Bromund</option>
-       </select>
-       <br>
-       <br>
-       <label for="fDescription" id="formDescription">Description</label>
-       <br>
-         <textarea for="fDescription" id="fDescription"></textarea>
-       <br>
-       <br>
-       <input type="submit" value="Submit">
-       
-
-     <!--  
+      <label for="fNames">Assigned To</label>
+      <br>
+      <select id="fNames" name="formName">
+        <option value="jBurg">John Burg</option>
+        <option value="jBouis">John Bouis Jr</option>
+        <option value="dBromund">Darlene Bromund</option>
+      </select>
+      <br>
+      <br>
+      <label for="fDescription">Description</label>
+      <br>
+      <textarea id="fDescription"></textarea>
+      <br>
+      <br>
      </form>
+      <button class ="button" type="submit" value="Submit"> Submit </button>
+     <!--  
      <div class="row d-flex justify-content-center container">
     <div class="col-md-8">
       <div class="card-hover-shadow-2x mb-3 card">
@@ -229,7 +224,6 @@
    
    
    
-  <script src="js/taskmanager.js"></script>
-  <script src="js/index.js"></script>
+    <script src="js/TaskManager.js"></script>
    </body>
 </html>

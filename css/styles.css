@@ -1,11 +1,18 @@
 
+
 h1 {
   font: rgb(224, 217, 11);
-  font-family: "Arial";
+  font-family: 'Permenant Marker', cursive;
 }
 
 body {
   background: #085F48
+}
+
+label 
+{
+  color: red;
+  font-size: 30px;
 }
 
 
